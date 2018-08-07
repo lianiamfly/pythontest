@@ -83,4 +83,4 @@ print(list(range(len(x))))
 for  i in range(len(x)):
     print(i,' ',x[i],end=' ')
 
-http://idea.iteblog.com/key.php
+#http://idea.iteblog.com/key.php
