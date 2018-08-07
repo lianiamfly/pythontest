@@ -83,4 +83,18 @@ print(list(range(len(x))))
 for  i in range(len(x)):
     print(i,' ',x[i],end=' ')
 
+print("\n")
+x = "abcdefghijklmnopqrst"
+for c in x[::2]:
+    print(c,end=' ')
 #http://idea.iteblog.com/key.php
+
+x = [1,2,3,4]
+y = [5,6,7,8]
+z = [9,10,11,12]
+print("\n")
+for (m,n) in list(zip(x,y)):
+    print("m: ",m," n: ",n)
+else:
+    print(list(zip(x,y)))
+    print(list(zip(x,y,z)))
